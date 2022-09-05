@@ -551,30 +551,55 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.hidden {
-  display: none;
+.container {
+  width: 100%;
 }
 
-.text-right {
-  text-align: right;
-}
-
-.font-primaryFont {
-  font-family: garamond;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-primaryGray {
-  --tw-text-opacity: 1;
-  color: rgb(102 102 102 / var(--tw-text-opacity));
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
 }
 
 @media (min-width: 768px) {
-  .md\:block {
-    display: block;
+  .container {
+    max-width: 768px;
   }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.decoration-solid {
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
 }
