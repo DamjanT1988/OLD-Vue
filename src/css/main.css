@@ -603,6 +603,20 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
 .decoration-solid {
   -webkit-text-decoration-style: solid;
           text-decoration-style: solid;
