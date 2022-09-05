@@ -590,6 +590,10 @@ video {
   margin-right: auto;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -606,6 +610,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .tracking-wide {
