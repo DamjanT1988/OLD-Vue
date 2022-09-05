@@ -594,6 +594,11 @@ video {
   width: 100%;
 }
 
+.columns-2 {
+  -moz-columns: 2;
+       columns: 2;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
