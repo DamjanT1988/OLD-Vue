@@ -598,12 +598,20 @@ video {
   margin-right: 1.25rem;
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .table-auto {
