@@ -590,6 +590,10 @@ video {
   margin-right: auto;
 }
 
+.table {
+  display: table;
+}
+
 .w-full {
   width: 100%;
 }
