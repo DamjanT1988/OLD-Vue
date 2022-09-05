@@ -619,6 +619,10 @@ video {
        columns: 2;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
 }
