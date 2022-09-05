@@ -652,6 +652,11 @@ video {
           text-decoration-style: solid;
 }
 
+.hover\:text-sky-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(56 189 248 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:columns-2 {
     -moz-columns: 2;
