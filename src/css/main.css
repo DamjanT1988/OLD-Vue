@@ -607,6 +607,10 @@ video {
   padding: 0.25rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -638,4 +642,11 @@ video {
 .decoration-solid {
   -webkit-text-decoration-style: solid;
           text-decoration-style: solid;
+}
+
+@media (min-width: 768px) {
+  .md\:columns-2 {
+    -moz-columns: 2;
+         columns: 2;
+  }
 }
